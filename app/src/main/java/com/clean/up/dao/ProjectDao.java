@@ -21,8 +21,4 @@ public interface ProjectDao {
     @Query("SELECT * FROM projects")
     LiveData<List<Project>> getProjects();  //  <<<<<   to get projects from table / READ
 
-
-    @Query("SELECT * FROM projects ")
-    LiveData<List<Project>> getAllProjects();   //  (for TodocDatabase, ...)
-
 }

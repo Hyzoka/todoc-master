@@ -1,6 +1,6 @@
 package com.cleanup.cleanup;
 
-import com.cleanup.cleanup.model.Task;
+import com.clean.up.model.Task;
 
 import org.junit.Test;
 

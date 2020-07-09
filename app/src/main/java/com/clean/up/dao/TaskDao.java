@@ -15,9 +15,6 @@ public interface TaskDao {
     @Query("SELECT * FROM tasks")
     LiveData<List<Task>> getTasks();//  to get projects from table (repository) / READ
 
-    @Query("SELECT * FROM tasks ")
-    LiveData<List<Task>> getAllTasks(); //  used in the test
-
     @Insert
     void insertTask(Task task); //  for test and repository / CREATE
 
